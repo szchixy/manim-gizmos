@@ -17,6 +17,3 @@ class ZenOfPython(Scene):
             self.play(FadeOut(text_lst[i], shift=UP), FadeIn(text_lst[i+1], shift=UP))
         self.play(FadeIn(footer), footer.animate.shift(DOWN))
         self.wait()
-
-if __name__ == '__main__':
-    ZenOfPython().render()
